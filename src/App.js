@@ -1,8 +1,8 @@
-import ExpenseItem from './components/ExpenseItem';
-import Expenses from './components/Expenses';
+
+import Expenses from './components/Expenses/Expenses';
 import './App.css';
 
-function App() {
+const App = () => {
   const expenses = [
     {
       id: 'e1',
