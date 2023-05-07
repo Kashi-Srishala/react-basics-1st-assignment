@@ -5,6 +5,7 @@ import './Expenses.css';
 
 const Expenses = (props) => {
     return(
+        //we are passing title, amount, date. from Expenses to ExpenseItem (from parent to child)
         <Card className="expenses">
             <ExpenseItem 
             title={props.items[0].title}
